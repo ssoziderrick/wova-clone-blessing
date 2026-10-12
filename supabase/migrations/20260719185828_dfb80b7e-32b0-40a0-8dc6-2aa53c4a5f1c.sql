@@ -1,0 +1,1 @@
+ALTER TABLE public.buyers ADD COLUMN IF NOT EXISTS email text;

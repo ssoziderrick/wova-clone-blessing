@@ -1,0 +1,26 @@
+{
+  "name": "Car Bond Manager",
+  "short_name": "Car Bond",
+  "description": "Manage car bond inventory, buyers, hire purchase agreements, payments and receipts for Wova Rich Investments LTD.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0b1220",
+  "theme_color": "#1e326e",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Inventory", "url": "/inventory" },
+    { "name": "Payments", "url": "/payments" },
+    { "name": "Buyers", "url": "/customers" }
+  ]
+}
